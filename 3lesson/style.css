@@ -1,0 +1,16 @@
+.navigation-text {
+  color: black;
+}
+
+.header-background {
+  background-color: orange;
+  height: 60px;
+}
+
+.quote-block {
+  background-color: bisque;
+}
+
+a {
+  color: white;
+}
