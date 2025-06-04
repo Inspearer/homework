@@ -1,0 +1,25 @@
+.first-text-color {
+  color: red;
+}
+
+.second-span-style {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.first-block {
+  background-color: rgba(121, 71, 15, 0.74);
+  color: white;
+  width: 500px;
+}
+
+.second-block {
+  background-color: rgb(218, 104, 218);
+  width: 300px;
+}
+
+.squart {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
