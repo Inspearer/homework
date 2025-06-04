@@ -1,0 +1,28 @@
+[magic_try] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cross-text {
+  text-decoration: line-through;
+}
+
+.align {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.decoration-try {
+  text-decoration: underline wavy;
+  text-shadow: 0 0 0 purple;
+  word-spacing: 30px;
+  font-size: 25px;
+}
+
+.idk-beautiful-selector-name {
+  letter-spacing: 5px;
+  text-decoration: overline dashed;
+  font-size: 20px;
+  text-align: right;
+}
