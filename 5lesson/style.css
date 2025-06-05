@@ -1,0 +1,30 @@
+.main-block {
+  background-color: rgb(207, 206, 206);
+  height: 700px;
+  overflow: auto;
+  border: 1px solid black;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.card {
+  background-color: rgb(233, 190, 139);
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px 20px 30px;
+  box-shadow: inset 0 0 10px black;
+  margin: 8px 10px 15px 3px;
+}
+
+.card {
+  display: inline-block;
+}
+
+.secret {
+  margin: 50px 657px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px purple;
+}
