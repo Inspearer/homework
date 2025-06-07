@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(87, 87, 87);
+}
+
+.squad__space {
+  max-width: 1000px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.squad {
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(rgb(145, 145, 238), rgb(245, 164, 164));
+  border-radius: 10px;
+  align-self: center;
+  position: relative;
+}
+
+.left__line {
+  width: 150px;
+  height: 1000px;
+  position: absolute;
+  left: -425px;
+  top: -425px;
+  position: relative;
+  pointer-events: none;
+}
+
+.left__element {
+  width: 150px;
+  height: 150px;
+  pointer-events: none;
+  /* animation: move-element 1s infinite alternate, slow-elements 1s infinite alternate;
+  animation-timing-function: linear; */
+}
+
+@keyframes move-element {
+  0% {
+    top: 0px;
+    background-color: rgb(162, 162, 252);
+  }
+
+  50% {
+    top: 500px;
+    border-radius: 100%;
+  }
+
+  70% {
+    top: 700px;
+  }
+
+  100% {
+    top: calc(1000px - 150px);
+    background-color: rgb(250, 165, 165);
+  }
+}
+
+.squad:hover {
+  animation: squad-pulse 1s infinite alternate;
+}
+
+.squad:hover .left__element {
+  position: absolute;
+  animation: move-element 1s infinite alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes squad-pulse {
+  0% {
+    width: 150px;
+    height: 150px;
+  }
+
+  100% {
+    width: 200px;
+    height: 200px;
+  }
+}
