@@ -72,7 +72,7 @@
         <div class="container">
           <div class="about__inner">
             <div class="about__img">
-              <img src="img/content/girl-main.png" alt="Повар с тортом в руках">
+              <!-- <img src="img/content/girl-main.png" alt="Повар с тортом в руках"> -->
               <div class="about__img-gift">
                 <a class="gift--link" href="#">
                   <img src="img/icons/present-icon.svg" alt="">
@@ -82,16 +82,17 @@
                 </p>
               </div>
             </div>
-            <div class="about__info">
-              <h1 class="about__title">Наша школа —</h1>
-              <p class="about__subtitle">
-                это уютный дом для начинающих кондитеров
-              </p>
-              <div class="about__description">
-                С нами ты погрузишься в удивительный мир кондитерского искусства, получишь новые знания
-                и профессиональные
-                навыки! Обретёшь веру в свои силы, научишься приготовлению разнообразных современных и классических
-                десертов
+              <div class="about__text">
+                <h1 class="about__title">Наша школа —</h1>
+                <p class="about__subtitle">
+                  это уютный дом для начинающих кондитеров
+                </p>
+                <div class="about__description">
+                  С нами ты погрузишься в удивительный мир кондитерского искусства, получишь новые знания
+                  и профессиональные
+                  навыки! Обретёшь веру в свои силы, научишься приготовлению разнообразных современных и классических
+                  десертов
+                </div>
               </div>
               <div class="about__cards">
                 <div class="about__card">
@@ -119,12 +120,10 @@
                   Большие аудитории для обучения
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
@@ -201,7 +200,42 @@
         </div>
       </div>
     </footer>
-
+    <div class="modal">
+      <div class="modal__window">
+        <div class="modal__container">
+          <a class="modal__cancel">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="24.000000" height="24.000000" fill="none" clip-path="url(#clipPath_0)"
+              customFrame="url(#clipPath_0)">
+              <defs>
+                <clipPath id="clipPath_0">
+                  <rect width="24.000000" height="24.000000" x="0.000000" y="0.000000" rx="11.250000"
+                    fill="rgb(255,255,255)" />
+                </clipPath>
+              </defs>
+              <rect id="cancel" width="24.000000" height="24.000000" x="0.000000" y="0.000000" rx="11.250000"
+                fill="rgb(255,255,255)" fill-opacity="0" />
+              <rect id="cancel" width="22.500000" height="22.500000" x="0.750000" y="0.750000" rx="11.250000"
+                stroke="rgb(224.673,217.179,225.25)" stroke-width="1.5" />
+              <path id="Vector"
+                d="M6.75781 17.2433L12.0008 12.0003L17.2438 17.2433M17.2438 6.75732L11.9998 12.0003L6.75781 6.75732"
+                fill-rule="nonzero" stroke="rgb(224.673,217.179,225.25)" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="1.5" />
+            </svg>
+          </a>
+          <img src="img/content/mandal/cupcacke.png" alt="">
+          <h2 class="modal__title">Удиви своих близких вкусными капкейками</h2>
+          <div class="modal__subtitle">Оставь свой e-mail, и мы вышлем рецепт на почту</div>
+          <form class="modal__form">
+            <label class="modal__form--label">
+              <input type="email" class="modal__form--input" placeholder="E-mail">
+              <span>Введите e-mail</span>
+            </label>
+            <button class="button" type="submit">Получить подарок</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="js/fslightbox.js"></script>
